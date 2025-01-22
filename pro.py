@@ -6,7 +6,7 @@ import os
 import re
 import razorpay
 import mysql.connector
-mydb=mysql.connector.connect(host='localhost',user='root',password='Taneem_2002',db='ecommi')
+mydb=mysql.connector.connect(host='localhost',user='root',password='admin',db='ecommi')
 # mydb=connnection.MYSQLConnection(host='localhost',user='root',password='Taneem_2002',db='ecommi')
 app=Flask(__name__)
 app.config['SESSION_TYPE']='filesystem'
